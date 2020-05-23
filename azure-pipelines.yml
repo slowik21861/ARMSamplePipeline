@@ -20,6 +20,6 @@ steps:
     location: 'North Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName "ARMTutorial" -linkedTemplateUri "CreateWebApp/linkedStorageAccount.json"'
+    overrideParameters: '-projectName "ARMTutorial" -linkedTemplateUri "https://raw.githubusercontent.com/slowik21861/ARMSamplePipeline/master/CreateWebApp/linkedStorageAccount.json"'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
